@@ -6,7 +6,8 @@ import 'package:google_generative_ai/google_generative_ai.dart';
 
 class GeminiProvider extends ChangeNotifier {
   static GenerativeModel _initModel() {
-    const key = 'AIzaSyCclp3DXWrsnRrUS97tSNRBmPIC1195Ir4';
+    //Use your own key here
+    String key="Use your own key here";
     if (key.isEmpty) {
       throw Exception('GEMINI_API_KEY not found');
     }
