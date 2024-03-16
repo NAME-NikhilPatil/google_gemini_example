@@ -1,16 +1,37 @@
 # google_gemini_example
 
-A new Flutter project.
+
+
+## Getting Started
+Use your API key from here: https://aistudio.google.com/app/apikey
+# google_gemini_example
+
+This project is a simple Flutter application that demonstrates how to integrate the Google Gemini API.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+First, obtain your Gemini API key from Google AI Studio to get started with this project.
 
-A few resources to get you started if this is your first Flutter project:
+## Installation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/NAME-NikhilPatil/google_gemini_example.git
+   
+You can just navigate to the cloned repo directory.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Get the dependencies:
+
+flutter pub get
+
+Run the app:
+
+flutter run
+
+Usage
+The app allows you to send text to the Gemini API and receive a response. Make sure to handle the API key securely and not expose it in your public code repositories.
+
+Contributing
+Contributions are welcome! For major changes, please open an issue first to discuss what you want to change.
+
+Remember to follow best practices for security and privacy, especially when handling API keys and user data. Happy coding!
