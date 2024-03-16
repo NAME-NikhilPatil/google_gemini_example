@@ -16,4 +16,21 @@ To get started with this project, first obtain your Gemini API key from Google A
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/google_gemini_example.git
+   git clone https://github.com/NAME-NikhilPatil/google_gemini_example.git
+Navigate to the cloned repo directory.
+Get the dependencies:
+flutter pub get
+
+Create a .env file in the root of your project and add your Gemini API key:
+GEMINI_API_KEY=---Your-Gemini-Api-Key---
+
+Run the app:
+flutter run
+
+Usage
+The app allows you to send text to the Gemini API and receive a response. Make sure to handle the API key securely and not to expose it in your public code repositories.
+
+Contributing
+Contributions are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+Remember to follow best practices for security and privacy, especially when handling API keys and user data. Happy coding!
