@@ -21,9 +21,6 @@ Navigate to the cloned repo directory.
 Get the dependencies:
 flutter pub get
 
-Create a .env file in the root of your project and add your Gemini API key:
-GEMINI_API_KEY=---Your-Gemini-Api-Key---
-
 Run the app:
 flutter run
 
